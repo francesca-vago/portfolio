@@ -1,0 +1,17 @@
+.navbar-container {
+    text-align: left;
+}
+
+.navbar-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0px 10px;
+}
+
+.nav-item a {
+    text-decoration: none;
+}

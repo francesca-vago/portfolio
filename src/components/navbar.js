@@ -1,13 +1,35 @@
 import React from 'react'
+import { Link } from 'gatsby'
+
+import "./navbar.css"
+
 
 const Navbar = () => {
     return (
-        <div className="navbar">
-            <div className="navbar-header"></div>
-            <div>
-                List of links
-            </div>
-        </div>
+            <nav className="navbar-container">
+                <ul className="navbar-list">
+                    <li className="nav-item">
+                        <a href="#header">
+                            .home
+                        </a>
+                    </li>
+                    <li className="nav-item">
+                        <a href="#about">
+                            .about
+                        </a>
+                    </li>
+                    <li className="nav-item">
+                        <a href="#projects">
+                            .projects
+                        </a>
+                    </li>
+                    <li className="nav-item">
+                        <a href="#contact">
+                            .contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
     )
 }
 

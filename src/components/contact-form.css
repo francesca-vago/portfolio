@@ -1,0 +1,44 @@
+.contact-form {
+    width: 80%;
+    margin: auto;
+}
+
+.form-text {
+    resize: none;
+}
+
+.form-control {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #d0dfe8;
+}
+
+.form-control:focus {
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    border-bottom: 4px solid #3e4f24;
+    background: #5a7233; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+button:hover {
+    background: #3e4f24;
+    } 
+
+@media (min-width: 568px) {
+    form {
+    width: 60%;
+    }
+}

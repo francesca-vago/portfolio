@@ -1,8 +1,10 @@
 import React from 'react'
 
+import "./section.css"
+
 const Section = ({title, children}) => {
     return (
-        <div className="section">
+        <div className="section-container">
             <h3 className="section-title">
                 {title}
             </h3>

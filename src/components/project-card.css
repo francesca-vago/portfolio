@@ -1,0 +1,19 @@
+.project-card-container {
+    width: 80%;
+    background-color: beige;
+    margin: auto;
+    display: flex;
+}
+
+.project-card-content {
+    text-align: left;
+}
+
+.project-card-title {
+
+}
+
+.project-card-text {
+
+}
+
