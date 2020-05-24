@@ -1,9 +1,14 @@
 import React from 'react'
 
-export const Navbar = () => {
+const Navbar = () => {
     return (
-        <div>
-            
+        <div className="navbar">
+            <div className="navbar-header"></div>
+            <div>
+                List of links
+            </div>
         </div>
     )
 }
+
+export default Navbar
