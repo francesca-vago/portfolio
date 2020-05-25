@@ -15,9 +15,10 @@ const ProjectCard = () => {
                 <div className="project-card-text">
                     <p>Lorem ipsum...</p>
                 </div>
-                <div className="project-card-buttons">
-                    <button className="project-card-btn">Github</button>
-                    <button className="project-card-btn">See Live Site</button>
+                <div className="project-card-links">
+                    <a>- visit site</a>
+                    <br/>
+                    <a>- github</a>
                 </div>
             </div>
         </div>

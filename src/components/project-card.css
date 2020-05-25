@@ -1,8 +1,8 @@
 .project-card-container {
     width: 80%;
-    background-color: beige;
     margin: auto;
     display: flex;
+    box-shadow: 0px 3px 6px lightgrey;
 }
 
 .project-card-content {
@@ -10,10 +10,23 @@
 }
 
 .project-card-title {
-
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .project-card-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+}
 
+.project-card-links {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 24px;
+}
+
+.project-card-links a:hover {
+    text-decoration: underline;
 }
 

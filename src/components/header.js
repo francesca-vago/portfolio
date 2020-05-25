@@ -8,7 +8,7 @@ import "./header.css"
 const Header = ({ siteTitle }) => (
   <header className="header-container">
       <div className="header-logo">
-        <Link to="/">FV</Link>
+        <Link to="/">Francesca Vago</Link>
       </div>
       <Navbar />
   </header>

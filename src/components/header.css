@@ -2,9 +2,19 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 10px 0px;
+    padding: 10px;
 }
 
 .header-logo {
     flex-grow: 1;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 24px;
+}
+
+.header-logo a {
+    text-decoration: none;
+    color: #000;
+    opacity: 0.9;
 }
