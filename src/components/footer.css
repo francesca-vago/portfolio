@@ -5,3 +5,33 @@
     color: #fff;
     text-align: center;
 }
+
+.social-links {
+    width: 80%; 
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.social-links a:hover {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.copyrights {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+    color: lightgray;
+    padding-bottom: 20px;
+}

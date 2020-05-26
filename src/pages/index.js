@@ -32,8 +32,7 @@ const IndexPage = () => (
       <ProjectCard />
     </Section>
     <SectionDivider />
-    <Section title="contact me"
-    >
+    <Section>
       <a id="contact"></a>
       <ContactForm/>
     </Section>

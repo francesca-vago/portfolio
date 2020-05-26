@@ -4,6 +4,11 @@
     margin: auto;
 }
 
+.contact-form-title {
+    font-family: 'La Belle Aurore', cursive;
+    padding-top: 50px;
+}
+
 .contact-form {
     width: 60%;
     margin: auto;
@@ -37,6 +42,11 @@
     font-size: 16px;
     font-weight: 400;
     color: #fff;
+    padding-bottom: 50px;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
 }
 
 @media (min-width: 568px) {

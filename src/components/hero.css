@@ -6,6 +6,27 @@
     background-color: #CBB6AC;
 }
 
-.hero-title h1 {
+.hero-content h1 {
     font-family: 'La Belle Aurore', cursive;
+}
+
+.hero-content h4 {
+    font-family: 'Poppins', cursive;
+    font-weight: 200;
+}
+
+.hero-link {
+    background-color: #000;
+    opacity: 0.9;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'La Belle Aurore', cursive;
+    padding: 5px 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 6px lightgrey;
+}
+
+.hero-link:hover {
+    opacity: 0.8;
 }
