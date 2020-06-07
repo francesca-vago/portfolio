@@ -1,5 +1,24 @@
 .navbar-container {
     text-align: left;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.nav-logo {
+    flex-grow: 1;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 24px;
+}
+
+.nav-logo a {
+    text-decoration: none;
+    color: #000;
+    opacity: 0.9;
 }
 
 .navbar-list {
@@ -10,7 +29,7 @@
 }
 
 .nav-item {
-    margin: 0px 10px;
+    margin: 0px 30px;
 }
 
 .nav-item a {

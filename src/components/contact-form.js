@@ -28,7 +28,7 @@ const ContactForm = () => {
                 </div>
                 <button 
                     type="submit" 
-                    className="btn submit-btn"
+                    className="submit-btn"
                 >
                     send
                 </button>

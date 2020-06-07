@@ -1,29 +1,50 @@
 .project-card-container {
-    width: 80%;
+    width: 60%;
+    height: 200px;
     margin: auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
     box-shadow: 0px 3px 6px lightgrey;
+    margin-top: 50px;
+}
+
+.project-card-img {
+    background-color: red;
+    width: 200px;
+    height: inherit;
 }
 
 .project-card-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    flex-grow: 1;
     text-align: left;
+    position: relative;
 }
 
-.project-card-title {
+.project-card-title h4 {
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
 
-.project-card-text {
+.project-card-text p {
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
-    font-size: 16px;
+    font-size: 12px;
+    margin: 0px;
 }
 
 .project-card-links {
     font-family: 'La Belle Aurore', cursive;
-    font-size: 24px;
+    font-size: 16px;
+    text-align: left;
+    position: absolute;
+    right: 20px;
+    bottom: -65px;
 }
 
 .project-card-links a:hover {

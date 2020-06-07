@@ -1,16 +1,14 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Navbar from "./navbar"
+import Hero from "./hero"
 
 import "./header.css"
 
 const Header = ({ siteTitle }) => (
   <header className="header-container">
-      <div className="header-logo">
-        <Link to="/">Francesca Vago</Link>
-      </div>
       <Navbar />
+      <Hero />
   </header>
 )
 

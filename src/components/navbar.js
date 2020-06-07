@@ -3,10 +3,12 @@ import { Link } from 'gatsby'
 
 import "./navbar.css"
 
-
 const Navbar = () => {
     return (
             <nav className="navbar-container">
+                      <div className="nav-logo">
+                        <Link to="/">Francesca Vago</Link>
+                    </div>
                 <ul className="navbar-list">
                     <li className="nav-item">
                         <a href="#header">

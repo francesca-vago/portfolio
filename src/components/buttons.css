@@ -1,10 +1,7 @@
 .btn {
     padding: 10px;
     margin-top: 20px;
-    border-radius: 20px;
-    font-family: 'La Belle Aurore', cursive;
-    box-shadow: 0px 3px 6px lightgrey;
-    font-size: 18px;    
+    border-radius: 20px;   
 }
 
 .btn-black {

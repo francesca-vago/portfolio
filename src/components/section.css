@@ -7,16 +7,16 @@
 
 .section-title {
     font-family: 'La Belle Aurore', cursive;
+    font-size: 32px;
 }
     
 .section-content {
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .section-content p {
-    width: 80%;
+    width: 60%;
     margin: auto;
-    text-align: justify;
 }
