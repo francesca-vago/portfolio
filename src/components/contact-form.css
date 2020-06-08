@@ -36,8 +36,8 @@
     padding: 5px 40px;
     margin-top: 20px;
     margin-bottom: 50px;
-    border-top: none;
-    border-right: none;
+    border-top: 2px solid transparent;
+    border-right: 2px solid transparent;
     border-bottom: 2px solid #fff;
     border-left: 2px solid #fff;
     background-color: transparent;
@@ -49,8 +49,8 @@
 
 .submit-btn:hover {
     cursor: pointer;
-    border-bottom: none;
-    border-left: none;
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid transparent;
     border-top: 2px solid #fff;
     border-right: 2px solid #fff;
 }
